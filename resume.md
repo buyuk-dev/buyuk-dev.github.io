@@ -1,4 +1,4 @@
-Michał Michalski
+Resume
 ====================
 C++/Python Software Engineer
 --------------------
