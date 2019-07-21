@@ -13,6 +13,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+navigation:
+  - title: Resume
+    url: "https://github.com/buyuk-dev/resume"
+
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
