@@ -1,7 +1,13 @@
-Resume
-====================
+---
+
+layout: page
+title: Resume
+permalink: /resume/
+
+---
+
 C++/Python Software Engineer
---------------------
+============================
 
 + [Warsaw, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
 + [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
