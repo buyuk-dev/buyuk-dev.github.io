@@ -1,3 +1,11 @@
+---
+
+layout: page
+title: Resume
+permalink: /resume/
+
+---
+
 Michał Michalski
 ====================
 C++/Python Software Engineer
