@@ -17,6 +17,9 @@ navigation:
   - title: Resume
     url: "https://github.com/buyuk-dev/resume"
 
+# Google Analytics
+google_analytics: UA-144833176-1
+
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
