@@ -6,6 +6,7 @@ permalink: /resume/
 
 ---
 
+
 Michał Michalski
 ====================
 C++/Python Software Engineer
