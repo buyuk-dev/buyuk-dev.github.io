@@ -7,8 +7,9 @@ permalink: /resume/
 ---
 
 
-# Michał Michalski
-## C++/Python Software Engineer
+## Michał Michalski
+
+### C++/Python Software Engineer
 
 + [Warsaw, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
 + [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
