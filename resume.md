@@ -24,8 +24,8 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + 2nd place at internal Samsung Bixby App Hackathon.
 + Optimization of ToF depth sensor software for the flagship smartphones.
 + Created and improved multiple automation tools to simplify workflow.
-* Introduced unit tests to a previously untested code base.
-* Recently took ownership of a media controller submodule.
++ Introduced unit tests to a previously untested code base.
++ Recently took ownership of a media controller submodule.
 
 #### 03.2017 - 08.2018 Nokia
 
