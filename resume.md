@@ -11,15 +11,10 @@ permalink: /resume/
 
 ### C++/Python Software Engineer
 
-+ [Warsaw, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
-+ [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
-+ [buyuk-dev.com](http://buyuk-dev.com)
+[Warsaw, Poland][1] | [buyuk.dev@gmail.com][2] | [buyuk-dev.com][3]
 
-*Software developer with 5++ years of professional experience with software architecture,
-C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
-
-### Skills
-
+Software developer witih **5++ years** of professional experience with software
+architecture.<br/>
 C++, Python, JavaScript, Bash, Linux, Git, Scrum
 
 ### Experience
@@ -88,3 +83,8 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 *I hereby give consent for my personal data included in my application to be processed
 for the purposes of the recruitment process under the Personal Data Protection Act as 
 of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.*
+
+[1]: https://goo.gl/maps/rGLm8pbEJxH2
+[2]: mailto:buyuk.dev@gmail.com)
+[3]: http://buyuk-dev.com
+
