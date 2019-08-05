@@ -1,4 +1,4 @@
-title: Michał Michalski
+title: buyuk.dev
 email: buyuk.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website for sharing thoughts, projects, and things I've learned about
@@ -6,15 +6,19 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: ""
 url: "https://buyuk-dev.github.io"
-github_username:  buyuk-dev
+
+github_username: buyuk-dev
+linkedin_username: buyuk
 
 markdown: kramdown
+
 theme: minima
 plugins:
   - jekyll-feed
 
 # Google Analytics
 google_analytics: UA-144833176-1
+
 
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
