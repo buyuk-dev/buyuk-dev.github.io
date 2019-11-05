@@ -19,6 +19,9 @@ plugins:
 # Google Analytics
 google_analytics: UA-144833176-1
 
+# Disqus
+disqus:
+    shortname: buyuk-dev
 
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
