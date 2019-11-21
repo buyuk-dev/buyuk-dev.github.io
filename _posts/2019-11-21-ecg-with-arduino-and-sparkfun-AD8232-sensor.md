@@ -50,7 +50,7 @@ NSAMPLES = 200
 REFRESH = 100
 
 port = serial.Serial("/dev/tty.usbmodem14201", 9600)
-figure = plt.figure()
+figure = pyplot.figure()
 subplot = figure.add_subplot(1, 1, 1)
 data = [0] * WINDOW
 
@@ -63,7 +63,7 @@ def draw(i, data):
     subplot.plot(data[-WINDOW:])
 
 ani = animation.FuncAnimation(figure, draw, fargs=(data,), interval=REFRESH)
-plt.show()
+pyplot.show()
 ```
 
 The `matplotlib.animation` module provides functions to modify plot data in real-time, using a callback. Matplotlib is repeatedly calling the `draw()` method every INTERVAL milliseconds. Each time, the script reads NSAMPLES values from the serial port and appends them to the collected data array. Eventually, it takes the latest WINDOW entries (plot width) and replaces the current plot with new data.
