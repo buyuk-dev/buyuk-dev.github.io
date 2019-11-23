@@ -32,7 +32,7 @@ void setup() {
 
 void loop() {
     int sample = analogRead(A0);
-    Serial.write(sample);
+    Serial.write((char*)&sample, sizeof(int));
 }
 ```
 
@@ -45,9 +45,9 @@ I used [pyserial](https://pyserial.readthedocs.io) package to read the data from
 import serial
 from matplotlib import pyplot, animation
 
-WINDOW = 3000
-NSAMPLES = 200
-REFRESH = 100
+WINDOW = 1600
+NSAMPLES = 80
+REFRESH = 80
 
 port = serial.Serial("/dev/tty.usbmodem14201", 9600)
 figure = pyplot.figure()
@@ -56,7 +56,7 @@ data = [0] * WINDOW
 
 def draw(i, data):
     data.extend([
-        int.from_bytes(port.read(), byteorder='big')
+        int.from_bytes(port.read(2), byteorder='little')
         for i in range(NSAMPLES)
     ])
     subplot.clear()
