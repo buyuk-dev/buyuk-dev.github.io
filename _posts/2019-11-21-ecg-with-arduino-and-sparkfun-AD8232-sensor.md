@@ -56,7 +56,7 @@ data = [0] * WINDOW
 
 def draw(i, data):
     data.extend([
-        int.from_bytes(port.read(2), byteorder='little')
+        int.from_bytes(port.read(2), byteorder='little', signed=True)
         for i in range(NSAMPLES)
     ])
     subplot.clear()
