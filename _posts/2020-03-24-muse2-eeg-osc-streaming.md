@@ -16,7 +16,7 @@ EPOC+ has more electrodes, however for over 2x the price of the Muse 2, I decide
 
 One important issue I missed before ordering the Muse device was the API.
 A quick google indicated there was one, so I did not investigate this any further.
-It turns out that Interaxon (the company behind Muse) [no longer supports the official API][3].
+It turns out that Interaxon (the company behind Muse) [no longer supports the official API][4].
 
 From a BCI developer point of view, this is pretty much a deal-breaker.
 Fortunately, it is still possible to access the data programmatically, so buying the device wasn't a complete waste of money.
@@ -31,7 +31,7 @@ After setting up the stream, any OSC-compatible UDP server can receive them.
 There are two ways to do this.
 The more interesting one is by implementing a custom OSC server.
 I am going to describe this in the next post.
-For now, let us use [Muse Lab][4] application to test that the streaming is working.
+For now, let us use [Muse Lab][5] application to test that the streaming is working.
 Firstly, we need to download and configure the Muse Direct app on an iOS device.
 
 ![muse direct menu](/assets/images/Muse2-OSC/muse-direct-menu.png){:height="300"}
@@ -47,7 +47,7 @@ The settings should look similar to the following screenshot.
 <!--img src="../assets/images/Muse2-OSC/muse-direct-streaming-settings.png" height="300"/-->
 
 Next, we need to download and install Muse Lab on the computer.
-Download [Muse SDK][4] for the proper platform and install it.
+Download [Muse SDK][5] for the proper platform and install it.
 Muse SDK is no longer supported, fortunately the Muse Lab application still works correctly (at least on my Windows 10 laptop).
 After running the Muse Lab application, you should see the following window.
 
@@ -105,5 +105,5 @@ My current goal is to start coding actual BCI, like a mind-controlled version of
 [1]: https://openbci.com/
 [2]: https://www.emotiv.com/product/emotiv-epoc-14-channel-mobile-eeg/
 [3]: https://choosemuse.com/muse-2/
-[3]: https://choosemuse.com/development/
-[4]: https://sites.google.com/a/interaxon.ca/muse-developer-site/download
+[4]: https://choosemuse.com/development/
+[5]: https://sites.google.com/a/interaxon.ca/muse-developer-site/download
