@@ -93,7 +93,7 @@ It can be done in the visualizer settings tab using the values of the min/max am
 ![muse lab main](/assets/images/Muse2-OSC/muse-lab-visualizer-settings.png){:height="300"}
 <!--img src="../assets/images/Muse2-OSC/muse-lab-visualizer-settings.png" height="300"/-->
 
-If everything wen't correctly we should see the EEG signal similar to the following screenshot.
+If everything went correctly we should see the EEG signal similar to the following screenshot.
 
 ![muse lab main](/assets/images/Muse2-OSC/muse-lab-eeg-time-graph.png){:height="300"}
 <!--img src="../assets/images/Muse2-OSC/muse-lab-eeg-time-graph.png" height="300"/-->
