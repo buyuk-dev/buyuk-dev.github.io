@@ -9,17 +9,24 @@ permalink: /resume/
 
 ## Michał Michalski
 
-### C++/Python Software Engineer
+### Senior C++/Python Software Engineer
 
-[Warsaw, Poland][1] | [buyuk.dev@gmail.com][2] | [buyuk-dev.com][3]
+[Amsterdam, Netherlands][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3]
 
-Software developer witih **5++ years** of professional experience with software
-architecture.<br/>
+Software developer with **6++ years** of professional experience with software development.<br/>
 C++, Python, JavaScript, Bash, Linux, Git, Scrum
 
 ### Experience
 
-#### 09.2018 - PRESENT Samsung Research and Development
+#### 08.2020 ActiveVideo Engineering
+
+*Senior Software Egnineer*
+
++ Developing AppCloud backend
++ Improving existing code base quality through testing and refactoring.
++ C++, Python, MPEG, HLS, DASH, ElasticSearch, AWS, Docker
+
+#### 09.2018 - 06.2020 Samsung Research and Development
 
 *Software Engineer @Samsung*
 
@@ -28,7 +35,8 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + Optimization of ToF depth sensor software for the flagship smartphones.
 + Created and improved multiple automation tools to simplify workflow.
 + Introduced unit tests to a previously untested code base.
-+ Recently took ownership of a media controller submodule.
++ Owner of a media controller submodule.
++ Designed and developed EWIDL documentation management system.
 
 #### 03.2017 - 08.2018 Nokia
 
@@ -80,11 +88,6 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + artificial intelligence, neuroscience
 + climbing, playing violin
 
-*I hereby give consent for my personal data included in my application to be processed
-for the purposes of the recruitment process under the Personal Data Protection Act as 
-of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.*
-
-[1]: https://goo.gl/maps/rGLm8pbEJxH2
-[2]: mailto:buyuk.dev@gmail.com)
-[3]: http://buyuk-dev.com
-
+[1]: https://goo.gl/maps/Zy4H6W4LHtzMSdVF6
+[2]: mailto:michal@buyuk-dev.com
+[3]: https://buyuk-dev.com
