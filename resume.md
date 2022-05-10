@@ -11,10 +11,11 @@ permalink: /resume/
 
 ### Senior C++/Python Software Engineer
 
-[Amsterdam, Netherlands][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3]
+[Poznań, Poland][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3]
 
-Software developer with **6++ years** of professional experience with software development.<br/>
-C++, Python, JavaScript, Bash, Linux, Git, Scrum
+Software developer with **8++ years** of professional experience with software development.
+
+{ C++, Python, JavaScript, Bash, Linux, Git, Scrum }
 
 ### Experience
 
@@ -22,7 +23,7 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 
 *Senior Software Egnineer*
 
-+ Developing AppCloud backend
++ Developing AppCloud backend.
 + Improving existing code base quality through testing and refactoring.
 + C++, Python, MPEG, HLS, DASH, ElasticSearch, AWS, Docker
 
@@ -37,6 +38,7 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + Introduced unit tests to a previously untested code base.
 + Owner of a media controller submodule.
 + Designed and developed EWIDL documentation management system.
++ Published research paper about EWIDL system.
 
 #### 03.2017 - 08.2018 Nokia
 
@@ -85,9 +87,9 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 
 ### Interests
 
-+ artificial intelligence, neuroscience
-+ climbing, playing violin
+Professional: algorithm design, code refactoring
+Personal: neuroscience, climbing, violin
 
-[1]: https://goo.gl/maps/Zy4H6W4LHtzMSdVF6
+[1]: https://goo.gl/maps/qAdy1uoFEL4WnwPM6
 [2]: mailto:michal@buyuk-dev.com
 [3]: https://buyuk-dev.com
