@@ -88,6 +88,7 @@ Software developer with **8++ years** of professional experience with software d
 ### Interests
 
 Professional: algorithm design, code refactoring
+
 Personal: neuroscience, climbing, violin
 
 [1]: https://goo.gl/maps/qAdy1uoFEL4WnwPM6
