@@ -16,9 +16,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Google Analytics
-google_analytics: UA-144833176-1
-
 # Disqus
 disqus:
     shortname: buyuk-dev
