@@ -24,8 +24,10 @@ jobs:
       - name: Checkout latest resume markdown from my resume repository
         run: |
           # Download latest resume in markdown format.
-          rm resume.md
+          rm -f resume.md
           wget -O resume.md https://raw.githubusercontent.com/buyuk-dev/resume/master/resume.md
+
+          echo "wget returned $?"
           
           # Define the string to prepend
           read -r -d '' STRING_TO_PREPEND << 'EOF'
@@ -35,6 +37,8 @@ jobs:
           permalink: /resume/
           ---
           EOF
+
+          echo "Prepared prefix variable."
           
           # Prepend the string to the downloaded file
           echo "$STRING_TO_PREPEND" | cat - resume.md > temp.md && mv temp.md resume.md
