@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
   repository_dispatch:
-    types: [pdf_built_event]
+    types: [update_resume_event]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
