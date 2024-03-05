@@ -13,7 +13,7 @@ permalink: /resume/
 
 Senior Software Engineer with 10++ years of commercial experience in software development.
 Expert in C++ and Python, proficient with C# and JavaScript.
-Creative and helpful team player with problem-solving skills.
+Creative and helpful team player with great problem-solving skills.
 
 { C++, Python, C#, JavaScript, Bash, Linux, Windows, Git, Scrum, AWS, Azure }
 
