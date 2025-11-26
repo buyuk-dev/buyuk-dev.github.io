@@ -155,6 +155,8 @@ Each embedding call now appears in Langfuse with:
 - **Token usage**: Estimated input tokens (useful for cost tracking)
 - **Timing**: Start/end timestamps for performance analysis
 
+![Langfuse trace showing embedding calls](/assets/images/LangFuseEmbeddings/trace.jpeg)
+
 ## Notes
 - The token estimation uses a simple heuristic (~4 bytes per token). For precise counts, you could integrate a tokenizer like `tiktoken`, but the estimate is usually good enough for monitoring.
 - The `__getattr__` proxy ensures the wrapper is fully transparent - any attributes or methods on the underlying embedder remain accessible.
