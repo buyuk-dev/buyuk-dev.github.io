@@ -2,6 +2,7 @@
 layout: post
 title: "Streaming EEG Data from Muse Direct"
 categories: signal-processing eeg muse osc
+comments: true
 ---
 
 The idea of Brain-Computer Interfaces (BCI) has been wandering in my head for quite some time now.

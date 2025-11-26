@@ -2,6 +2,7 @@
 layout: post
 title: "Generating Custom Sine Waves via Headphone Jack Interface"
 categories: electronics signal-processing
+comments: true
 ---
 
 When you are designing electronic circuits, it is often useful to measure the

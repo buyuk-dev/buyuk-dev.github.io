@@ -2,6 +2,7 @@
 layout: post
 title: "Plotting ECG data with Arduino UNO and Sparkfun AD8232 Sensor."
 categories: arduino ecg electronics signal-processing
+comments: true
 ---
 
 Recently I have taken an interest in bio-electric signalling. My ultimate goal is building a custom EEG circuit, such as [OpenBCI](http://openbci.com) project. To study the basics, I have bought a single-lead ECG sensor **AD8232**. In this article, I describe how to connect this sensor to the Arduino UNO, read the data via serial port, and plot the signal in real-time using `matplotlib`.
