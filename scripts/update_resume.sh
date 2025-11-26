@@ -1,19 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 # Download latest resume in markdown format.
-rm -f resume.md
-wget -O resume.md https://raw.githubusercontent.com/buyuk-dev/resume/master/resume.md
+rm -f resume_raw.md
+wget -O resume_raw.md https://raw.githubusercontent.com/buyuk-dev/resume/master/resume.md
 
 echo "wget returned $?"
 
-# Define the string to prepend
-read -r -d '' STRING_TO_PREPEND << 'EOF'
----
-layout: page
-title: Resume
-permalink: /resume/
----
-EOF
+# Convert LaTeX-flavored markdown to Jekyll-compatible markdown
+python3 scripts/convert_resume.py resume_raw.md resume.md
 
-echo "Prepared prefix variable."
+# Clean up
+rm -f resume_raw.md
 
-# Prepend the string to the downloaded file
-echo "$STRING_TO_PREPEND" | cat - resume.md > temp.md && mv temp.md resume.md
+echo "Conversion complete."
